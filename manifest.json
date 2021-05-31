@@ -1,0 +1,11 @@
+{
+  "name": "Web Blocker",
+  "version": "1.0",
+  "description": "An extension to block websites you dislike",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["storage"]
+}

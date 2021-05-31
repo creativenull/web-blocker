@@ -1,0 +1,1 @@
+SetupLsp('tsserver')
