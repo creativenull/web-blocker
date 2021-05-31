@@ -1,16 +1,23 @@
 {
   "name": "web-blocker",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
   "dependencies": {
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@types/chrome": "0.0.142",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "prettier": "^2.3.0",
     "typescript": "^4.1.2"
   }
 }

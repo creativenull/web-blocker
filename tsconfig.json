@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "module": "ESNext",
-    "outDir": "./dist",
     "removeComments": true,
     "strict": true,
     "moduleResolution": "classic",
@@ -13,5 +12,7 @@
     "forceConsistentCasingInFileNames": true
   },
 
-  "files": ["src/background.ts"]
+  "files": [
+    "src/background.ts"
+  ]
 }
