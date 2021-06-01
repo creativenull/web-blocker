@@ -17,4 +17,4 @@ function tsc() {
 }
 
 exports.default = series(tsc, copyManifest)
-exports.watch = watchChanges
+exports.watch = series(copyManifest, watchChanges)
