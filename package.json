@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "gulp",
-    "watch": "gulp watch"
+    "watch": "CHOKIDAR_USEPOLLING=true gulp watch"
   },
   "dependencies": {
     "react": "^17.0.0",
